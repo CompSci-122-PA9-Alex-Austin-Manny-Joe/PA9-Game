@@ -31,9 +31,7 @@ int main()
 		while (window.pollEvent(event))
 		{
 			if (event.type == sf::Event::Closed)
-			{
 				window.close();
-			}
 		}
 
 
@@ -53,7 +51,7 @@ int main()
 
 		//time = tickTock.getElapsedTime();
 
-		
+
 	}
 
 	return 0;
