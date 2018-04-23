@@ -27,7 +27,7 @@ int main(void)
 	//Makes Window
 	sf::RenderWindow window(sf::VideoMode(800, 600), "Da Dream Team Game");
 
-	Menu myMenu(window.getSize().x, window.getSize().y);
+	//Menu myMenu(window.getSize().x, window.getSize().y);
 
 	//Event object where events will be stored - An even is anything from moving a mouse, key, etc..
 	sf::Event event;
@@ -92,7 +92,7 @@ int main(void)
 	while (window.isOpen())
 	{
 		//if(clock.getElapsedTime().asSeconds() % 10 == 0)
-		myMenu.draw(window);
+		//myMenu.draw(window);
 
 
 		slowMovingSpeed = SlowDown.asSeconds();
